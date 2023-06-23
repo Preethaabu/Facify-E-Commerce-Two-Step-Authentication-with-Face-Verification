@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Email Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    form {
+      max-width: 300px;
+      margin: 0 auto;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    input[type="email"] {
+      width: 100%;
+      padding: 5px;
+      margin-bottom: 10px;
+    }
+
+    button[type="submit"] {
+      padding: 5px 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Email Form</h1>
+  <form id="emailForm">
+    <label for="emailInput">Email:</label>
+    <input type="email" id="emailInput" required>
+    <button type="submit">Send Email</button>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
